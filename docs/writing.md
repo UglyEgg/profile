@@ -11,8 +11,8 @@ This section will stay curated rather than high-volume. I’m more interested in
 
 ## Planned and emerging topics
 
-- **Approaching v1.0: what changes**  
-  As a project moves toward release, the challenge shifts from exploration to convergence. This will focus on what changes when experimentation has to give way to coherence, stability, and delivery discipline.
+- [**Approaching v1.0: what changes**](./writing/20260328-approaching_v_1.md)  
+  As a project moves toward release, the challenge shifts from exploration to convergence. This focuses on what changes when experimentation has to give way to coherence, stability, and delivery discipline.
 
 - **Determinism as an engineering value**  
   A look at determinism not as ideology, but as a practical constraint that improves debugging, operations, and system trust.

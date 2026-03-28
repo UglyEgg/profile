@@ -10,8 +10,8 @@ nav = [
   { Writing = "writing.md" },
   { About = "about.md" },
   { GitHub = "https://github.com/UglyEgg" },
-  { LinkedIn = "https://www.linkedin.com/in/REPLACE_ME" },
-  { "Request Resume" = "#request-resume" }
+  { LinkedIn = "https://www.linkedin.com/in/richardmajewski" },
+  { "Request Resume" = "#request-resume" },
 ]
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["javascripts/extra.js"]
@@ -24,5 +24,5 @@ features = [
   "navigation.tabs",
   "navigation.tracking",
   "content.code.copy",
-  "toc.follow"
+  "toc.follow",
 ]

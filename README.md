@@ -12,14 +12,6 @@ Personal site scaffold for Rich Majewski, built for Zensical and GitHub Pages.
 - `CNAME` for `rmajewski.entropy.quest`
 - placeholder RSS feed at `docs/feed.xml`
 
-## Before first deploy
-
-Replace the remaining placeholders:
-
-- `REPLACE_ME` in the LinkedIn URL
-- project URLs if they move
-- RSS feed item metadata as writing goes live
-
 ## Local preview
 
 ```bash
