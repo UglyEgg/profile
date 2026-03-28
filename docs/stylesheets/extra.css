@@ -1,0 +1,125 @@
+:root {
+  --rm-accent: #7aa2f7;
+  --rm-accent-soft: rgba(122, 162, 247, 0.12);
+  --rm-border: rgba(255, 255, 255, 0.12);
+  --rm-surface: rgba(255, 255, 255, 0.03);
+}
+
+.md-main__inner {
+  max-width: 72rem;
+}
+
+.md-content {
+  line-height: 1.72;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: -0.015em;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.4rem;
+}
+
+.md-typeset h2 {
+  margin-top: 2.6rem;
+  border-top: 1px solid var(--rm-border);
+  padding-top: 1.1rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.4rem 0 2rem;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.72rem 1rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--rm-accent);
+  background: var(--rm-accent);
+  color: #0b1020 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.cta-button-secondary {
+  background: transparent;
+  color: var(--md-default-fg-color) !important;
+}
+
+.cta-button:hover {
+  background: color-mix(in srgb, var(--rm-accent) 88%, white);
+}
+
+.cta-button-secondary:hover {
+  background: var(--rm-accent-soft);
+}
+
+.rm-footer {
+  margin-top: 4rem;
+  padding: 1.25rem 0 2.2rem;
+  border-top: 1px solid var(--rm-border);
+}
+
+.rm-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rm-footer__meta {
+  min-width: 15rem;
+}
+
+.rm-footer__title {
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.rm-footer__desc {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.rm-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.rm-footer__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.88rem;
+  padding: 0.2rem 0;
+}
+
+.rm-footer__links a:hover {
+  color: var(--rm-accent);
+}
+
+.rm-icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .rm-footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

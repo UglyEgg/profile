@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Rich Majewski</title>
+    <link>https://rmajewski.entropy.quest/</link>
+    <description>Selected writing on systems, reliability, and engineering tradeoffs.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Approaching v1.0: what changes</title>
+      <link>https://rmajewski.entropy.quest/writing/</link>
+      <guid>https://rmajewski.entropy.quest/writing/#approaching-v10-what-changes</guid>
+      <description>Planned essay on how projects shift from exploration to convergence as they approach v1.0.</description>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
