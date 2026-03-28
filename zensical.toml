@@ -9,7 +9,6 @@ nav = [
   { Projects = "projects.md" },
   { Writing = "writing.md" },
   { About = "about.md" },
-  { "Request Resume" = "#request-resume" },
 ]
 extra_css = ["stylesheets/extra.css"]
 extra_javascript = ["javascripts/extra.js"]
