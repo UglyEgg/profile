@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="alternate" type="application/rss+xml" title="Rich Majewski RSS" href="{{ config.site_url }}/feed.xml">
+  <script>
+    (function () {
+      try {
+        var scope = new URL(".", location).pathname;
+        var key = scope + ".__palette";
+        if (!localStorage.getItem(key)) {
+          localStorage.setItem(key, JSON.stringify({
+            color: {
+              media: "(prefers-color-scheme: dark)",
+              scheme: "slate",
+              primary: "indigo",
+              accent: "indigo"
+            }
+          }));
+        }
+      } catch (e) {}
+    })();
+  </script>
+{% endblock %}

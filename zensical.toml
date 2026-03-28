@@ -9,8 +9,6 @@ nav = [
   { Projects = "projects.md" },
   { Writing = "writing.md" },
   { About = "about.md" },
-  { GitHub = "https://github.com/UglyEgg" },
-  { LinkedIn = "https://www.linkedin.com/in/richardmajewski" },
   { "Request Resume" = "#request-resume" },
 ]
 extra_css = ["stylesheets/extra.css"]
@@ -26,3 +24,20 @@ features = [
   "content.code.copy",
   "toc.follow",
 ]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"

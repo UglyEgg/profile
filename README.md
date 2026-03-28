@@ -10,7 +10,7 @@ Personal site scaffold for Rich Majewski, built for Zensical and GitHub Pages.
 - a custom footer partial with GitHub, LinkedIn, Request Resume, and RSS links
 - GitHub Actions workflow for Pages deployment
 - `CNAME` for `rmajewski.entropy.quest`
-- placeholder RSS feed at `docs/feed.xml`
+- RSS feed at `docs/feed.xml`
 
 ## Local preview
 

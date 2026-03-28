@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rich Majewski</title>
     <link>https://rmajewski.entropy.quest/</link>
+    <atom:link href="https://rmajewski.entropy.quest/feed.xml" rel="self" type="application/rss+xml" />
     <description>Selected writing on systems, reliability, and engineering tradeoffs.</description>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Mar 2026 00:00:00 GMT</lastBuildDate>
     <item>
       <title>Approaching v1.0: what changes</title>
-      <link>https://rmajewski.entropy.quest/writing/</link>
-      <guid>https://rmajewski.entropy.quest/writing/#approaching-v10-what-changes</guid>
+      <link>https://rmajewski.entropy.quest/writing/20260328-approaching_v_1/</link>
+      <guid isPermaLink="true">https://rmajewski.entropy.quest/writing/20260328-approaching_v_1/</guid>
       <pubDate>Sat, 28 Mar 2026 00:00:00 GMT</pubDate>
-      <description>Essay on how projects shift from exploration to convergence as they approach v1.0.</description>
+      <description>What shifts as a project approaches release: contracts, compatibility, documentation, and designing for futures you have not fully seen yet.</description>
     </item>
   </channel>
 </rss>

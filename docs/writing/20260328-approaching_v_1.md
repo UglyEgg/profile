@@ -33,7 +33,7 @@ Approaching v1.0 means:
 - no surprising side effects
 - no reliance on tribal knowledge
 
-If the system behaves differently than a user expects, that’s a design problem. Not something you paper over with documentation later.
+In practice, if a system behaves differently than a user expects, it usually ends up being a design problem, not something you can really paper over with documentation later.
 
 ## Failure handling stops being optional
 
@@ -48,7 +48,7 @@ Now you need real answers:
 - what data can be trusted
 - what recovery actually looks like
 
-If those aren’t clearly defined, the system isn’t ready.
+If those aren’t clearly defined, the system usually isn’t as ready as you want to think it is.
 
 ## Interfaces harden
 
@@ -62,7 +62,7 @@ That forces you to define:
 - what is internal
 - what is allowed to evolve
 
-You’re not freezing the system. You’re deciding where change is safe and where it isn’t.
+You’re not freezing the system. You’re trying to decide where change is safe and where it isn’t.
 
 ## You start designing for futures you don’t fully know
 
@@ -81,7 +81,7 @@ This shows up in:
 - file formats
 - extension points
 
-Once those are exposed and used, they stop being easy to change.
+Once those are exposed and in use, they stop being easy to change.
 
 ## Backward compatibility becomes a constraint
 
@@ -101,7 +101,7 @@ You get to choose between:
 - introducing versioning complexity
 - rewriting large parts of the system
 
-None of those are fun.
+None of those are especially fun.
 
 ## A concrete example
 
@@ -113,7 +113,7 @@ Things like:
 - how do new file types get introduced without breaking existing archives
 - how do I design a chain-of-custody model so it can be added later without rewriting core logic
 
-These aren’t implementation questions. They’re boundary questions.
+These aren’t really implementation questions. They’re boundary questions.
 
 If the format and contracts aren’t shaped correctly now, adding those capabilities later means:
 
@@ -139,7 +139,7 @@ If you wait until after v1.0:
 - you will describe what you thought it did, not what it actually does
 - you will end up reading your own code to reconstruct intent
 
-That’s not a good use of time.
+That’s usually not a great use of time.
 
 Approaching v1.0, documentation becomes part of the design process:
 
@@ -147,7 +147,7 @@ Approaching v1.0, documentation becomes part of the design process:
 - behavior is defined, not inferred
 - invariants are captured while they’re still fresh
 
-Good documentation at this stage isn’t just for users. It’s how you keep the system honest.
+Good documentation at this stage isn’t just for users. It’s also how you keep the system honest.
 
 ## Observability becomes part of the product
 
@@ -159,7 +159,7 @@ At this stage:
 - state should be inspectable
 - failures should be diagnosable without reverse engineering
 
-If you need a debugger to understand basic behavior, something is missing.
+If you need a debugger just to understand basic behavior, something is probably missing.
 
 ## The bar changes
 
@@ -167,13 +167,13 @@ Before v1.0, "it works" is enough.
 
 After v1.0, it needs to behave predictably under stress and continue to behave as it evolves.
 
-That’s a higher bar because at v1.0, you’re no longer building for yourself. You’re building something other people will depend on and build on top of.
+That’s a higher bar because at v1.0, you’re no longer building only for yourself. You’re building something other people may depend on and build on top of.
 
 ## Closing
 
 v1.0 isn’t the finish line.
 
-It’s the point where the system stops being an experiment and starts becoming a dependency.
+It’s the point where the system starts to stop being an experiment and becomes something other people may treat as a dependency.
 
 The work doesn’t get easier.
 
